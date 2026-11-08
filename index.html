@@ -1,113 +1,360 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mike Donald Sevilla - SAP Consultant</title>
-  <meta name="description" content="Portfolio of Mike Donald Sevilla, SAP Consultant with expertise in ABAP, SAP CRM, and S/4HANA">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <h1>Mike Donald Sevilla</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<!doctype html>
+<html lang="en" data-theme="system">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="view-port" content="width=device-width" , initial-scale="1.0" />
+    <title>Mike Sevilla - Full-Stack SAP Developer</title>
+    <meta
+      name="description"
+      content="Mike Sevilla, full-stack SAP developer, ABAP, CDS, Fiori, and CAP. In-house S/4HANA at Johnsonville. 14+ years across ECC, CRM, and HANA."
+    />
+    <script>
+      (function () {
+        var saved = localStorage.getItem("theme");
+        var theme =
+          saved === "light" || saved === "dark" || saved === "system"
+            ? saved
+            : "system";
+        document.documentElement.setAttributes("data-theme", theme);
+      })();
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#top">Mike Sevilla</a>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        Menu
+      </button>
+      <nav id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="theme-switch" role="group" aria-label="Color theme">
+        <button type="button" data-theme-choice="light" aria-pressed="false">
+          Light
+        </button>
+        <button type="button" data-theme-choice="dark" aria-pressed="false">
+          Dark
+        </button>
+        <button type="button" data-theme-choice="system" aria-pressed="false">
+          System
+        </button>
+      </div>
+    </header>
 
-  <!-- About -->
-  <section id="about">
-    <h2>Professional Summary</h2>
-    <p>SAP Consultant with 13 years of experience in ABAP, ABAP-CRM, and SAP CRM-SD, specializing in system implementation, technical design, and integration. Expertise in SAP ECC, S/4HANA, and ABAP on HANA, with a strong track record in RICEFW development and CRM Middleware. Adept at optimizing business processes and leading teams to deliver high-quality solutions. Continuously upskilling in SAP BTP and SAP Fiori to stay ahead in emerging technologies.</p>
-  </section>
+    <main id="main">
+      <section id="top" class="hero">
+        <p class="eyebrow">ABAP OOP · S/4HANA · CDS · Fiori / UI5</p>
+        <h1>Mike Sevilla</h1>
+        <p class="role">SAP Developer · Johnsonville · Manila</p>
+        <p class="lede">
+          14+ years in ABAP and SAP CRM. Now in-house Development and
+          Integration Engineer at Johnsonville, a US CPG manufacturer, building
+          and supporting S/4HANA extensions. Classic and HANA-native ABAP,
+          Fiori/UI5, and objects already in production.
+        </p>
+        <div class="cta">
+          <a class="button" href="mailto:miked.sevilla@protonmail.com"
+            >Email me</a
+          >
+          <a
+            class="button button-secondary"
+            href="https://www.linkedin.com/in/mike-sevilla/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a class="button button-secondary" href="mike-sevilla-cv.pdf"
+            >Download CV</a
+          >
+        </div>
+        <ul class="facts">
+          <li>
+            <strong>14+ years </strong
+            ><span>IT Industry, ABAP and SAP CRM</span>
+          </li>
+          <li>
+            <strong>90% </strong><span>runtime cut on one custom program</span>
+          </li>
+          <li>
+            <strong>4 </strong
+            ><span>SAP certifications, including ABAP Cloud</span>
+          </li>
+        </ul>
+      </section>
 
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Key Skills</h2>
-    <ul>
-      <li><strong>SAP Modules:</strong> SAP S/4HANA, ECC (CRM, SD, MM, FICO, RE-FX)</li>
-      <li><strong>Development:</strong> ABAP (OOP, Procedural), ABAP-CRM (BOL), ABAP on HANA, JavaScript, HTML, CSS</li>
-      <li><strong>Database:</strong> SAP HANA, Oracle, SQL Server</li>
-      <li><strong>Soft Skills:</strong> Communication, Leadership and Team Collaboration, Problem-Solving</li>
-      <li><strong>Tools & Technologies:</strong> SAP BTP, SAP BAS, ABAP on HANA (OpenSQL, AMDP, CDS Views), BOL & GenIL, RFC/BAPI, OData Services, Web Services, ALV Reports, Eclipse IDE (ADT)</li>
-    </ul>
-  </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          Hands-on with ABAP OO, CDS, AMDP, and OData, plus Fiori Elements and
+          CAP on BTP. Certified in ABAP Cloud (2026), CAP (2025), and Fiori
+          (2023). Earlier work covers technical consulting at Fujitsu, in-house
+          SAP CRM at Grundfos, then DXC and Accenture: FI-CO, SD, MM, PP, WM,
+          RE-FX, and CRM (BOL/GenIL, Middleware, Hybris/EDI). English,
+          professional. Tagalog, native.
+        </p>
+      </section>
 
-  <!-- Experience -->
-  <section id="experience">
-    <h2>Professional Experience</h2>
-    <div class="job">
-      <h3>Senior Technical Consultant | SAP ABAP Developer | Fujitsu GDC Philippines</h3>
-      <p><em>October 2022 - Present</em></p>
-      <ul>
-        <li>Led project implementation from functional specification analysis to technical design and unit testing, serving as Team Lead, Function Owner, and Developer</li>
-        <li>Built an OOP-based ABAP report with email and Smartform (PDF) features</li>
-        <li>Designed and implemented ABAP solutions across FI, AA, CO, SD, MM, and RE-FX modules</li>
-        <li>Conducted a 3-week ABAP training for 14 participants</li>
-        <li><strong>Key Achievement:</strong> Optimized a customized ABAP program, reducing execution time by 90%</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>Application Analyst | SAP CRM Functional Consultant | Grundfos IS</h3>
-      <p><em>August 2018 - October 2022</em></p>
-      <ul>
-        <li>Enhanced CRM solutions post-SAP-CRM training in Shanghai, China</li>
-        <li>Designed ALV Customer Report for Quotation Approval Workflow</li>
-        <li>Built RFC-enabled Function Module for Sales Order Simulation</li>
-        <li><strong>Key Achievement:</strong> Optimized CRM Quotation Approval Workflow and Sales Order Simulation</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>Technology Consultant | SAP CRM Techno-Functional | DXC Technology</h3>
-      <p><em>February 2017 - August 2018</em></p>
-      <ul>
-        <li>Served as SPOC for ABAP CRM enhancements</li>
-        <li>Conducted ABAP-CRM and Debugging training</li>
-        <li><strong>Key Achievement:</strong> Enhanced team efficiency by leading training</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>Senior Software Engineer | SAP ABAP Developer | Accenture, Inc.</h3>
-      <p><em>February 2012 - February 2017</em></p>
-      <ul>
-        <li>Spearheaded RICEFW development and deployed ACE for CRM objects</li>
-        <li>Designed custom BSP components and Web UI enhancements</li>
-        <li><strong>Key Achievement:</strong> Awarded the "Tiger Award" for high-quality work</li>
-      </ul>
-    </div>
-  </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="cards">
+          <li>
+            <h3>Backend</h3>
+            <p>
+              ABAP OO, ABAP on HANA, CDS views, AMDP, Open SQL, OData, RFC/BAPI,
+              IDoc, BOL/GenIL
+            </p>
+          </li>
+          <li>
+            <h3>Frontend</h3>
+            <p>SAP Fiori, SAPUI5 / OpenUI5, Fiori Elements, SAP CRM WebUI</p>
+          </li>
+          <li>
+            <h3>Platform</h3>
+            <p>S/4HANA, ECC, SAP BTP, HANA 2.0, ABAP Cloud, CAP</p>
+          </li>
+          <li>
+            <h3>Process</h3>
+            <p>
+              PP-PI, WM, QM, SD, MM, FI-CO, RE-FX, CRM Service and Sales, CPG /
+              manufacturing
+            </p>
+          </li>
+          <li>
+            <h3>Tools</h3>
+            <p>ADT for VS Code and Eclipse IDE, ATC, ABAP Cleaner, SAP GUI</p>
+          </li>
+          <li>
+            <h3>How I work</h3>
+            <p>
+              Clean Core, Clean ABAP, Secure by design, new build, production
+              support, enhancements, go-live, skilled trainer
+            </p>
+          </li>
+        </ul>
+      </section>
 
-  <!-- Education -->
-  <section id="education">
-    <h2>Education & Certifications</h2>
-    <ul>
-      <li><strong>SAP Certified Associate:</strong> Backend Developer - SAP Cloud Application Programming Model (2025)</li>
-      <li><strong>SAP Certified Development Associate:</strong> SAP Fiori Application Developer (2023)</li>
-      <li><strong>SAP Certified Development Associate:</strong> SAP HANA 2.0 SPS06 (2023)</li>
-      <li><strong>B.S. in Electronics and Communications Engineering</strong><br>Polytechnic University of the Philippines (2006-2011)</li>
-    </ul>
-  </section>
+      <section id="experience">
+        <h2>Experience</h2>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p><strong>Email: <a href="mailto:miked.sevilla@protonmail.com">miked.sevilla@protonmail.com</a></strong></p>
-    <p>Viber/WhatsApp: +63 9474266160</p>
-    <p>Location: Manila, Philippines</p>
-    <p><a href="https://www.linkedin.com/in/mikedsevilla/" target="_blank" rel="noopener" aria-label="Visit my LinkedIn profile (opens in a new tab)">LinkedIn<span class="external-link">↗</span></a></p>
-    <!-- <p><a href="https://www.github.com/mike10x">Github</a></p> move the link to footer area -->
-    <p><a href="https://www.credly.com/users/mikedsevilla" target="_blank" rel="noopener" aria-label="Visit my Credly profile (opens in a new tab)">Credly<span class="external-link">↗</span></a></p> <!-- New Credly link-->
-  </section>
-  <footer>
-    <p>© 2025 Mike Donald Sevilla | Empowering Businesses with SAP Excellence | View My <a href="https://github.com/mike10x" target="_blank" rel="noopener" aria-label="Visit my GitHub profile (opens in a new tab)">GitHub<span class="external-link">↗</span></a> ⚡</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
+        <article class="job">
+          <h3>IT Development and Integration Specialist</h3>
+          <p class="meta">
+            Johnsonville · <time datetime="2025-05">May 2025</time> – Present
+          </p>
+          <ul>
+            <li>
+              Primary SAP developer for Southeast Asia on the global S/4HANA
+              instance, including integration of an acquired company through
+              go-live, with US and SEA process owners and business analysts.
+            </li>
+            <li>
+              Stopped a production goods-movement dump by finding a bad BAPI
+              parameter and reviewing 30+ custom programs. Short dumps cleared
+              in DEV, QAS, and PRD.
+            </li>
+            <li>
+              Delivered 10+ warehouse and production enhancements (RF screen,
+              Dialog Programming and ALV), unit-tested, for an enterprise
+              go-live.
+            </li>
+            <li>
+              Fixed UAT and production defects in confirmation and pricing:
+              order status and invoice output.
+            </li>
+            <li>
+              Built a read-only Transport Request Analyzer (standard function
+              modules) for release, import, return code, and failure step. Used
+              in CAB and go-live checks.
+            </li>
+            <li>
+              Presented a RAP + Fiori Elements app at the IT Symposium in
+              Sheboygan, Wisconsin, USA: managed business object, about 100
+              lines of CDS annotations, no custom UI, Clean Core.
+            </li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Senior Technical Consultant</h3>
+          <p class="meta">
+            Fujitsu GDC Philippines · <time datetime="2022-10">Oct 2022</time> –
+            <time datetime="2025-04">Apr 2025</time>
+          </p>
+          <ul>
+            <li>
+              Led delivery as team lead, function owner, and developer: spec,
+              design, ABAP, and unit test across FI, AA, CO, SD, MM, and RE-FX.
+            </li>
+            <li>
+              Built S/4HANA work: CDS reports, batch input, Fiori enhancements,
+              and an OOP report with email and Smartform PDF.
+            </li>
+            <li>Cut one custom program’s runtime by 90%.</li>
+            <li>
+              Designed and taught a 3-week ABAP bootcamp for 14 people (7.5+,
+              OOP, reports, interfaces, Smartforms, exam).
+            </li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Application Analyst, SAP CRM</h3>
+          <p class="meta">
+            Grundfos IS · <time datetime="2018-08">Aug 2018</time> –
+            <time datetime="2022-10">Oct 2022</time>
+          </p>
+          <ul>
+            <li>
+              In-house CRM after training in Shanghai: functional ownership plus
+              ABAP-CRM (BOL/GenIL).
+            </li>
+            <li>Quotation-approval ALV and mass Activity creation via BOL.</li>
+            <li>
+              RFC sales-order simulation, Hybris and EDI integration, OpenText
+              Exstream output.
+            </li>
+            <li>
+              Incidents, root-cause analysis, L1 training, and Power BI on CRM
+              data.
+            </li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Technology Consultant III, ABAP-CRM</h3>
+          <p class="meta">
+            DXC Technology · <time datetime="2017-02">Feb 2017</time> –
+            <time datetime="2018-08">Aug 2018</time>
+          </p>
+          <ul>
+            <li>
+              Single point of contact for ABAP-CRM enhancements and production
+              issues.
+            </li>
+            <li>
+              CRM and middleware errors with business analysts; OSS notes; data
+              extracts.
+            </li>
+            <li>ABAP-CRM and debugging training for the team.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Senior Software Engineer, SAP ABAP</h3>
+          <p class="meta">
+            Accenture · <time datetime="2012-02">Feb 2012</time> –
+            <time datetime="2017-02">Feb 2017</time>
+          </p>
+          <ul>
+            <li>
+              Promoted Associate → Software Engineer → Senior Software Engineer
+            </li>
+            <li>
+              WRICEF and ACE builds for CRM. Knowledge transfer in Hyderabad,
+              then on-site in Malaysia for IS-Retail.
+            </li>
+            <li>
+              Sub-lead for CRM Services and the Quality Review team. BSP, Web
+              UI, Smartforms, and ABAP-CRM coaching.
+            </li>
+            <li>Tiger Award for delivery with little or no rework.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="education">
+        <h2>Certifications and Education</h2>
+        <ul class="certs">
+          <li>
+            <strong>SAP Certified - Back-End Developer - ABAP Cloud</strong>
+            <span>2026</span>
+          </li>
+          <li>
+            <strong
+              >SAP Certified - Backend Developer - SAP Cloud Application
+              Programming Model</strong
+            >
+            <span>2025</span>
+          </li>
+          <li>
+            <strong>SAP Certified - SAP Fiori Application Developer</strong>
+            <span>2023</span>
+          </li>
+          <li>
+            <strong
+              >SAP Certified Development Associate - SAP HANA 2.0 SPS06</strong
+            >
+            <span>2023</span>
+          </li>
+          <li>
+            <strong>B.S. Electronics and Communications Engineering</strong>
+            <span>Polytechnic University of the Philippines, 2006–2011</span>
+          </li>
+        </ul>
+        <p>
+          <a
+            href="https://www.credly.com/users/mikedsevilla"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Verify badges on Credly</a
+          >
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:miked.sevilla@protonmail.com"
+              >miked.sevilla@protonmail.com</a
+            >
+          </li>
+          <li><a href="tel:+639474266160">+63 947 426 6160</a></li>
+          <li>Manila, Philippines</li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/mike-sevilla/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/mike-sevilla"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.credly.com/users/mikedsevilla"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Credly</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year">2026</span> Mike Sevilla</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
