@@ -2,12 +2,19 @@
 <html lang="en" data-theme="system">
   <head>
     <meta charset="UTF-8" />
-    <meta name="view-port" content="width=device-width" , initial-scale="1.0" />
+    <meta name="view-port" content="width=device-width, initial-scale=1.0" />
     <title>Mike Sevilla - Full-Stack SAP Developer</title>
     <meta
       name="description"
       content="Mike Sevilla, full-stack SAP developer, ABAP, CDS, Fiori, and CAP. In-house S/4HANA at Johnsonville. 14+ years across ECC, CRM, and HANA."
     />
+    <meta property="og:title" content="Mike Sevilla - SAP Developer" />
+    <meta
+      property="og:description"
+      content="ABAP OO, CDS, Fiori, UI5. In-house Developer. 14+ years across ECC, CRM, and S/4HANA."
+    />
+    <meta property="og:url" content="https://mike-sevilla.github.io" />
+    <meta property="og:type" content="website" />
     <script>
       (function () {
         var saved = localStorage.getItem("theme");
@@ -15,7 +22,7 @@
           saved === "light" || saved === "dark" || saved === "system"
             ? saved
             : "system";
-        document.documentElement.setAttributes("data-theme", theme);
+        document.documentElement.setAttribute("data-theme", theme);
       })();
     </script>
     <link rel="stylesheet" href="styles.css" />
